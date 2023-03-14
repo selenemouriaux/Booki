@@ -1,0 +1,627 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', 'Trebuchet MS', Avenir, Segoe UI, sans-serif;
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.Wrapper {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  max-width: 1400px;
+  gap: 20px;
+}
+
+
+/*******************************************************
+************************ HEADER ************************
+*******************************************************/
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin: 0 20px;
+  gap: 30px;
+}
+
+.logoBox {
+  height: 20px;
+}
+
+.logoBox img {
+  height: 100%;
+  padding-left: 30px;
+}
+
+.topMenu {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: auto;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  text-decoration: none;
+  color: black;
+  border-top: solid #fff 2px;
+  border-bottom: unset;
+}
+
+.navItem:hover {
+  border-top: solid #0065FC 2px;
+  border-bottom: unset;
+  color: #0065FC;
+}
+
+
+/*******************************************************
+************************* MAIN *************************
+*******************************************************/
+
+
+.emphasized {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.blue {
+  color: #0065FC;
+}
+
+
+/*******************************************************
+************************* Section1 *********************
+*******************************************************/
+
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  gap: 20px;
+}
+
+.slogan {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.iconMap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2F2F2;
+  border-radius: 15px 0 0 15px;
+  height: 100%;
+  width: 50px;
+}
+
+.searchBar input {
+  height: 100%;
+  border: 1px solid #F2F2F2;
+  padding: 0 10px;
+  font: inherit;
+}
+
+.searchBar button {
+
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #0065FC;
+  color: white;
+  font: inherit;
+  padding: 0 15px;
+  border: none;
+  border-radius: 0 15px 15px 0;
+}
+
+.searchButton {
+  display: flex;
+}
+
+.searchButtonLoupe {
+  display: none;
+}
+
+.filters {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.filterBox {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filterTitle {
+  width: auto;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+  border-radius: 25px;
+  border: solid #D9D9D9;
+  background-color: white;
+  width: auto;
+  height: 50px;
+  gap: 10px;
+}
+
+.filter .blue {
+  height: 20px;
+  width: 20px;
+}
+
+.filter:hover {
+  background-color: #DEEBFF;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.info .blue {
+  padding: 5px;
+  border-radius: 50%;
+  border: 1px solid #D9D9D9;
+  height: 25px;
+  width: 25px;
+}
+
+
+/*******************************************************
+************************* section 2 ********************
+*******************************************************/
+
+
+.section2 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 50px;
+  margin: 20px 0;
+  gap: 3%;
+}
+
+#accommodation {
+  display: flex;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  padding: 40px;
+  gap: 15px;
+  width: 64%;
+  flex-direction: column;
+}
+
+.Accommodations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.AccCard {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: calc(100% / 3 - 10px);
+  border-radius: 20px;
+  border: solid 5px white;
+  box-shadow: 2px 2px 10px 2px #d0d0d0;
+  background-color: white;
+}
+
+.AccCard .text {
+  font-size: 14px;
+}
+
+.AccPicBox {
+  width: 100%;
+  height: 60%;
+  border-radius: 20px 20px 0 0;
+}
+
+.AccPicBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+.AccCaption {
+  height: 40%;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1;
+}
+
+#popular {
+  display: flex;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  padding: 40px;
+  gap: 15px;
+  width: 33%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.inlineTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Populars {
+  display: flex;
+  flex-direction: column;
+  justify-content: unset;
+  gap: 30px;
+}
+
+.PopCard {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  height: 150px;
+  width: 100%;
+  border-radius: 20px;
+  border: solid 5px white;
+  box-shadow: 2px 2px 10px 2px #d0d0d0;
+  background-color: white;
+}
+
+.PopCard .text {
+  font-size: 14px;
+}
+
+.PopPicBox {
+  width: 40%;
+  height: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.PopPicBox img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+  object-fit: cover;
+}
+
+.PopCaption {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.popText {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 2px;
+}
+
+.seeMore {
+  display: unset;
+  margin-top: 20px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.fa-star {
+  color: #F2F2F2;
+}
+
+.active {
+  color: #0065FC;
+}
+
+/*******************************************************
+************************* section 3 ********************
+*******************************************************/
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 50px;
+  gap: 20px;
+  margin: unset;
+}
+
+#Activities {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: unset;
+}
+
+.ActivityCard {
+  height: 300px;
+  width: 22%;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 2px #d0d0d0;
+  background-color: white;
+}
+
+.ActivityPicBox {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ActivityPicBox img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+
+.ActivityCaption {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 20px;
+}
+
+/*******************************************************
+************************ FOOTER ************************
+*******************************************************/
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 50px;
+  padding: 50px 75px;
+  background-color: #F2F2F2;
+  gap: unset;
+}
+
+footer .text {
+  font-size: 14px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.tabContent {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabContent p {
+  margin: 5px 0;
+}
+
+
+/*******************************************************
+******************* BREAKPOINT TABLET ******************
+*******************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+
+  .section2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #accommodation {
+    width: auto;
+  }
+
+  #popular {
+    width: auto;
+    flex-direction: row;
+  }
+
+  .Populars {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: unset;
+  }
+
+  .PopCard {
+    width: 30%;
+  }
+
+  .ActivityCard {
+    height: 250px;
+  }
+
+  .ActivityPicBox {
+    height: 75%;
+  }
+
+  .ActivityCaption {
+    height: 25%;
+    padding: 0 10px;
+  }
+
+  footer {
+    padding: 30px 50px;
+  }
+}
+
+
+/*******************************************************
+******************* BREAKPOINT MOBILE ******************
+*******************************************************/
+
+@media screen and (max-width: 767px) {
+
+  header {
+    flex-direction: column;
+    justify-content: unset;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .logoBox img {
+    padding-left: 0;
+  }
+
+  .topMenu {
+    height: 50px;
+    width: 100%;
+  }
+
+  .navItem {
+    width: 50%;
+    border-top: unset;
+    border-bottom: solid #fff 2px;
+  }
+
+  .section1 {
+    padding: 0 20px;
+  }
+
+  .searchButton {
+    display: none;
+  }
+
+  .searchButtonLoupe {
+    display: flex;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .filterTitle {
+    width: 100%;
+  }
+
+  .filter {
+    width: 48%;
+  }
+
+  .section2 {
+    flex-direction: column-reverse;
+    gap: unset;
+    padding: 0;
+  }
+
+  #accommodation {
+    background-color: unset;
+    border-radius: unset;
+    width: auto;
+    padding: 20px;
+  }
+
+  .Accommodations {
+    flex-direction: column;
+  }
+
+  .AccCard {
+    width: auto;
+  }
+
+  #popular {
+    width: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: unset;
+    padding: 20px;
+  }
+
+  .Populars {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .PopCard {
+    width: auto;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+  .section3 {
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
+
+  #Activities {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ActivityCard {
+    width: auto;
+    height: 200px;
+  }
+
+  .ActivityPicBox {
+    height: 75%;
+  }
+
+  .ActivityCaption {
+    height: 25%;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 40px 30px;
+    margin: 0;
+    gap: 40px;
+  }
+}
