@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', 'Trebuchet MS', Avenir, Segoe UI, sans-serif;
   text-decoration: none;
   color: inherit;
 }
@@ -449,3 +449,185 @@ footer .text {
   margin: 5px 0;
 }
 
+
+/*******************************************************
+******************* BREAKPOINT TABLET ******************
+*******************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+
+  .section2 {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  #accommodation {
+    width: auto;
+  }
+
+  #popular {
+    width: auto;
+    flex-direction: row;
+  }
+
+  .Populars {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: unset;
+  }
+
+  .PopCard {
+    width: 30%;
+  }
+
+  .ActivityCard {
+    height: 250px;
+  }
+
+  .ActivityPicBox {
+    height: 75%;
+  }
+
+  .ActivityCaption {
+    height: 25%;
+    padding: 0 10px;
+  }
+
+  footer {
+    padding: 30px 50px;
+  }
+}
+
+
+/*******************************************************
+******************* BREAKPOINT MOBILE ******************
+*******************************************************/
+
+@media screen and (max-width: 767px) {
+
+  header {
+    flex-direction: column;
+    justify-content: unset;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .logoBox img {
+    padding-left: 0;
+  }
+
+  .topMenu {
+    height: 50px;
+    width: 100%;
+  }
+
+  .navItem {
+    width: 50%;
+    border-top: unset;
+    border-bottom: solid #fff 2px;
+  }
+
+  .navItem:hover {
+    border-top: unset;
+    border-bottom: solid #0065FC 2px;
+    color: #0065FC;
+  }
+
+  .section1 {
+    padding: 0 20px;
+  }
+
+  .searchButton {
+    display: none;
+  }
+
+  .searchButtonLoupe {
+    display: flex;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .filterTitle {
+    width: 100%;
+  }
+
+  .filter {
+    width: 48%;
+  }
+
+  .section2 {
+    flex-direction: column-reverse;
+    gap: unset;
+    padding: 0;
+  }
+
+  #accommodation {
+    background-color: unset;
+    border-radius: unset;
+    width: auto;
+    padding: 20px;
+  }
+
+  .Accommodations {
+    flex-direction: column;
+  }
+
+  .AccCard {
+    width: auto;
+  }
+
+  #popular {
+    width: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: unset;
+    padding: 20px;
+  }
+
+  .Populars {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .PopCard {
+    width: auto;
+  }
+
+  .seeMore {
+    display: none;
+  }
+
+  .section3 {
+    padding: 0 20px;
+    margin-bottom: 80px;
+  }
+
+  #Activities {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ActivityCard {
+    width: auto;
+    height: 200px;
+  }
+
+  .ActivityPicBox {
+    height: 75%;
+  }
+
+  .ActivityCaption {
+    height: 25%;
+  }
+
+  footer {
+    flex-direction: column;
+    padding: 40px 30px;
+    margin: 0;
+    gap: 40px;
+  }
+}
