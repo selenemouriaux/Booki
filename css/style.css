@@ -75,6 +75,12 @@ header {
 ************************* MAIN *************************
 *******************************************************/
 
+a {
+  display: inherit;
+  flex-direction: inherit;
+  height: 100%;
+  width: 100%;
+}
 
 .emphasized {
   font-size: larger;
@@ -445,7 +451,6 @@ footer .text {
   flex-direction: column;
 }
 
-.tabContent p {
+.tabContent * {
   margin: 5px 0;
 }
-

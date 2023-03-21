@@ -1,16 +1,6 @@
 @media screen and (max-width: 767px) {
 
 
-  * {
-  }
-
-  body {
-  }
-
-  .Wrapper {
-  }
-
-
   /*******************************************************
   ************************ HEADER ************************
   *******************************************************/
@@ -21,9 +11,6 @@
     justify-content: unset;
     height: auto;
     margin: 20px 0;
-  }
-
-  .logoBox {
   }
 
   .logoBox img {
@@ -49,39 +36,11 @@
 
 
   /*******************************************************
-  ************************* MAIN *************************
-  *******************************************************/
-
-
-  .emphasized {
-  }
-
-  .blue {
-  }
-
-
-  /*******************************************************
   ************************* Section1 *********************
   *******************************************************/
 
-
   .section1 {
     padding: 0 20px;
-  }
-
-  .slogan {
-  }
-
-  .searchBar {
-  }
-
-  .iconMap {
-  }
-
-  .searchBar input {
-  }
-
-  .searchBar button {
   }
 
   .searchButton {
@@ -97,27 +56,12 @@
     align-items: start;
   }
 
-  .filterBox {
-  }
-
   .filterTitle {
     width: 100%;
   }
 
   .filter {
     width: 48%;
-  }
-
-  .filter .blue {
-  }
-
-  .filter:hover {
-  }
-
-  .info {
-  }
-
-  .info .blue {
   }
 
 
@@ -147,12 +91,6 @@
     width: auto;
   }
 
-  .AccPicBox {}
-
-  .AccPicBox img {}
-
-  .AccCaption {}
-
   #popular {
     width: auto;
     flex-direction: column;
@@ -160,8 +98,6 @@
     border-radius: unset;
     padding: 20px;
   }
-
-  .inlineTitle {}
 
   .Populars {
     flex-direction: column;
@@ -172,23 +108,9 @@
     width: auto;
   }
 
-  .PopPicBox {}
-
-  .PopPicBox img {}
-
-  .PopCaption {}
-
-  .popText{}
-
-  .rating {}
-
   .seeMore {
     display: none;
   }
-
-  .fa-star {}
-
-  .active {}
 
 
   /*******************************************************
@@ -215,9 +137,6 @@
     height: 75%;
   }
 
-  .ActivityPicBox img {
-  }
-
   .ActivityCaption {
     height: 25%;
   }
@@ -231,14 +150,4 @@
     margin: 0;
     gap: 40px;
   }
-
-  .tab {
-  }
-
-  .tabContent {
-  }
-
-  .tabContent p {
-  }
-
 }

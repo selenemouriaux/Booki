@@ -1,79 +1,6 @@
 @media screen and (min-width: 768px) and (max-width: 991px){
 
 
-  * {}
-
-  body {}
-
-  .Wrapper {}
-
-
-  /*******************************************************
-  ************************ HEADER ************************
-  *******************************************************/
-
-
-  header {}
-
-  .logoBox {}
-
-  .logoBox img {}
-
-  .topMenu {}
-
-  .navItem {}
-
-  .navItem:hover {}
-
-
-  /*******************************************************
-  ************************* MAIN *************************
-  *******************************************************/
-
-
-  .emphasized {}
-
-  .blue {}
-
-
-  /*******************************************************
-  ************************* Section1 *********************
-  *******************************************************/
-
-
-  .section1 {}
-
-  .slogan {}
-
-  .searchBar {}
-
-  .iconMap {}
-
-  .searchBar input {}
-
-  .searchBar button {}
-
-  .searchButton {}
-
-  .searchButtonLoupe {}
-
-  .filters {}
-
-  .filterBox {}
-
-  .filterTitle {}
-
-  .filter {}
-
-  .filter .blue {}
-
-  .filter:hover {}
-
-  .info {}
-
-  .info .blue {}
-
-
   /*******************************************************
   ************************* section 2 ********************
   *******************************************************/
@@ -88,24 +15,10 @@
     width: auto;
   }
 
-  .Accommodations {}
-
-  .AccCard {}
-
-  .AccCard .text {}
-
-  .AccPicBox {}
-
-  .AccPicBox img {}
-
-  .AccCaption {}
-
   #popular {
     width: auto;
     flex-direction: row;
   }
-
-  .inlineTitle {}
 
   .Populars {
     flex-direction: row;
@@ -117,31 +30,10 @@
     width: 30%;
   }
 
-  .PopCard .text {}
-
-  .PopPicBox {}
-
-  .PopPicBox img {}
-
-  .PopCaption {}
-
-  .popText {}
-
-  .rating {}
-
-  .seeMore {}
-
-  .fa-star {}
-
-  .active {}
 
   /*******************************************************
   ************************* section 3 ********************
   *******************************************************/
-
-  .section3 {}
-
-  #Activities {}
 
   .ActivityCard {
     height: 250px;
@@ -150,8 +42,6 @@
   .ActivityPicBox {
     height: 75%;
   }
-
-  .ActivityPicBox img {}
 
   .ActivityCaption {
     height: 25%;
@@ -165,13 +55,4 @@
   footer {
     padding: 30px 50px;
   }
-
-  footer .text {}
-
-  .tab {}
-
-  .tabContent {}
-
-  .tabContent p {}
-
 }
